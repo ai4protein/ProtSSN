@@ -38,6 +38,7 @@ We focus on using end-to-end methods for protein directed evolution in zero samp
 
 ### News
 
+- [2025.5.2] Our paper is accepted by eLife, 10.7554/eLife.98033.
 - [2024.4.28] Our paper is under review on eLife, 10.7554/eLife.98033.
 - [2023.12.23] Our **ensemble ProtSSN** achieves a spearman score of **0.449** on **ProteinGym v1.0**. You can view and compare different baseline models on the [ProteinGym website](https://proteingym.org/benchmarks).
 
@@ -303,13 +304,22 @@ python run_pt.py \
 Please cite our work if you have used our code or data for **dry experiment testing/wet experiment directed evolution**. We are pleased to see improvements in the subsequent work.
 
 ```
-@article{tan2023protssn,
-  title={Semantical and Topological Protein Encoding Toward Enhanced Bioactivity and Thermostability},
-  author={Tan, Yang and Zhou, Bingxin and Zheng, Lirong and Fan, Guisheng and Hong, Liang},
-  journal={bioRxiv},
-  pages={2023--12},
-  year={2023},
-  publisher={Cold Spring Harbor Laboratory}
+@article{tan2025protssn,
+	article_type = {journal},
+	title = {Semantical and geometrical protein encoding toward enhanced bioactivity and thermostability},
+	author = {Tan, Yang and Zhou, Bingxin and Zheng, Lirong and Fan, Guisheng and Hong, Liang},
+	editor = {Koo, Peter and Cui, Qiang},
+	volume = 13,
+	year = 2025,
+	month = {may},
+	pub_date = {2025-05-02},
+	pages = {RP98033},
+	citation = {eLife 2025;13:RP98033},
+	doi = {10.7554/eLife.98033},
+	url = {https://doi.org/10.7554/eLife.98033},
+	journal = {eLife},
+	issn = {2050-084X},
+	publisher = {eLife Sciences Publications, Ltd},
 }
 ```
 
