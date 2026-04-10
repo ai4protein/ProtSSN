@@ -38,6 +38,7 @@ We focus on using end-to-end methods for protein directed evolution in zero samp
 
 ### News
 
+- [2026.04.01] ProtSSN has been integrated into [VenusFactory2](https://github.com/ai4protein/VenusFactory2). Welcome to use it! Here is the [web server](https://venusfactory.cn/playground/) and [technical report](https://arxiv.org/abs/2603.27303).
 - [2025.5.2] Our paper is accepted by eLife, 10.7554/eLife.98033.
 - [2024.4.28] Our paper is under review on eLife, 10.7554/eLife.98033.
 - [2023.12.23] Our **ensemble ProtSSN** achieves a spearman score of **0.449** on **ProteinGym v1.0**. You can view and compare different baseline models on the [ProteinGym website](https://proteingym.org/benchmarks).
