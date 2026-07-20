@@ -4,6 +4,7 @@
   - [🚀 Introduction (ProtSSN)](#-introduction-protssn)
   - [📑 Results](#-results)
     - [News](#news)
+    - [Applications](#applications)
     - [Downloads](#downloads)
     - [Paper Results](#paper-results)
   - [🛫 Requirement](#-requirement)
@@ -38,10 +39,22 @@ We focus on using end-to-end methods for protein directed evolution in zero samp
 
 ### News
 
-- [2026.04.01] ProtSSN has been integrated into [VenusFactory2](https://github.com/ai4protein/VenusFactory2). Welcome to use it! Here is the [web server](https://venusfactory.cn/playground/) and [technical report](https://arxiv.org/abs/2603.27303).
+- [2026.04.01] ProtSSN has been integrated into [VenusFactory2](https://github.com/ai4protein/VenusFactory2). Welcome to use it! Here is the [web server](https://venusfactory.bio/) and [technical report](https://arxiv.org/abs/2603.27303).
 - [2025.5.2] Our paper is accepted by eLife, 10.7554/eLife.98033.
 - [2024.4.28] Our paper is under review on eLife, 10.7554/eLife.98033.
 - [2023.12.23] Our **ensemble ProtSSN** achieves a spearman score of **0.449** on **ProteinGym v1.0**. You can view and compare different baseline models on the [ProteinGym website](https://proteingym.org/benchmarks).
+
+### Applications
+
+ProtSSN has been adopted in downstream protein engineering and related studies. Selected examples:
+
+| Year | Venue | Application | Reference |
+| ---- | ----- | ----------- | --------- |
+| 2026 | *Nature* | Guided single-site mutagenesis (e.g. L349K) during CytoTape monomer redesign for weeks-long intracellular gene-regulation recording | [Zheng et al., *Nature* (2026)](https://www.nature.com/articles/s41586-026-10156-9) |
+| 2025 | *Acta Pharm. Sin. B* | Evaluated as a structure-aware zero-shot mutant scorer on 905 small-scale experimental assays (VenusMutHub) | [Zhang et al., *Acta Pharm. Sin. B* (2025)](https://doi.org/10.1016/j.apsb.2025.03.028) |
+| 2025 | ProteinGym / VenusFactory2 | Available for zero-shot mutation scoring via the [ProteinGym leaderboard](https://proteingym.org/benchmarks) and the [VenusFactory2 web server](https://venusfactory.bio/) | [VenusFactory2](https://github.com/ai4protein/VenusFactory2) · [arXiv:2603.27303](https://arxiv.org/abs/2603.27303) |
+
+If you used ProtSSN in your wet-lab or computational study, feel free to open an issue or PR so we can add your work here.
 
 ### Downloads
 
