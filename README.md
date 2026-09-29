@@ -39,6 +39,7 @@ We focus on using end-to-end methods for protein directed evolution in zero samp
 
 ### News
 
+- [2026.09.30] VenusREM2 achieves **0.556** on ProteinGym substitution leaderboard by [VenusREM-Harness](https://github.com/ai4protein/VenusREM-Harness). Plz see [technical report](https://arxiv.org/abs/2609.34654).
 - [2026.04.01] ProtSSN has been integrated into [VenusFactory2](https://github.com/ai4protein/VenusFactory2). Welcome to use it! Here is the [web server](https://venusfactory.bio/) and [technical report](https://arxiv.org/abs/2603.27303).
 - [2025.5.2] Our paper is accepted by eLife, 10.7554/eLife.98033.
 - [2024.4.28] Our paper is under review on eLife, 10.7554/eLife.98033.
