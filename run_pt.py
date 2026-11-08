@@ -165,7 +165,7 @@ def train_model(args, plm_model, gnn_model,
     if args.auto_continue_train:
         history_df = pd.read_csv(os.path.join(args.model_dir, "history.csv"))
         names = history_df.columns
-        gnn_model.load_state_dict(torch.load(os.path.join(args.model_dir, f"best_{monitor}.pt"))["state_dict"])
+        gnn_model.load_state_dict(torch.load(os.path.join(args.model_dir, f"best_{monitor}.pt"), weights_only=True)["state_dict"])
         if args.epoch_idx:
             logger.info(f" Train from epoch_idx = {args.epoch_idx} ")
         else:
